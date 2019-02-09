@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>gnvm</id>
+    <version>0.2.0</version>
+    <packageSourceUrl>https://github.com/jeremyben/chocolatey-packages</packageSourceUrl>
+    <owners>Jeremy Bensimon</owners>
+    <title>GNVM</title>
+    <authors>Kenshin Wang</authors>
+    <projectUrl>http://ksria.com/gnvm</projectUrl>
+    <iconUrl>http://i.imgur.com/Z4iPSgQ.png</iconUrl>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/Kenshin/gnvm</projectSourceUrl>
+    <tags>gnvm nvm node nodejs version manager</tags>
+    <summary>Simple Node.js version manager</summary>
+    <description>`GNVM` is simple multiple Node.js version manager by Go, like `nvm` `nvmw` `nodist`.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
