@@ -13,8 +13,8 @@ $installDir = if (Test-Path "$nodeDir\node.exe") {
 }
 
 $packageArgs = @{
-  packageName   = 'gnvm'
-  fileFullPath  = "$installDir\gnvm.exe"
+  packageName   = $env:ChocolateyPackageName
+  fileFullPath  = "$installDir\gnvm.exe" # Join-Path $installDir 'gnvm.exe'
   url           = 'https://github.com/Kenshin/gnvm-bin/blob/master/32-bit/gnvm.exe?raw=true'
   url64bit      = 'https://github.com/Kenshin/gnvm-bin/blob/master/64-bit/gnvm.exe?raw=true'
   checksum      = 'F18307A7FBA2D21F4705EF294A5CAC81B264638AEA7F438819CB801FC07E6FF1'
