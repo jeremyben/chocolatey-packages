@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>gibo</id>
+    <version>2.1.2</version>
+    <packageSourceUrl>https://github.com/jeremyben/chocolatey-packages</packageSourceUrl>
+    <owners>Jeremy Bensimon</owners>
+    <title>gibo</title>
+    <authors>Simon Whitaker</authors>
+    <projectUrl>https://github.com/simonwhitaker/gibo</projectUrl>
+    <projectSourceUrl>https://github.com/simonwhitaker/gibo</projectSourceUrl>
+    <licenseUrl>https://github.com/simonwhitaker/gibo/blob/master/UNLICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>gibo git gitignore</tags>
+    <summary>Easy access to gitignore boilerplates</summary>
+    <description>
+gibo (short for .gitignore boilerplates) is a script to help you easily access .gitignore boilerplates from github.com/github/gitignore.
+
+### Typical usage
+
+gibo dump Python NotepadPP >> .gitignore
+
+For additional usage instructions, run `gibo help`.
+    </description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
