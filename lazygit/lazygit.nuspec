@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>lazygit</id>
-    <version>0.7.2</version>
+    <version>0.8</version>
     <packageSourceUrl>https://github.com/jeremyben/chocolatey-packages</packageSourceUrl>
     <owners>Jeremy Bensimon</owners>
     <title>lazygit</title>
