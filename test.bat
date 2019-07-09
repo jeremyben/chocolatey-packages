@@ -1,5 +1,5 @@
 @echo off
-setlocal EnableExtensions EnableDelayedExpansion
+setlocal enableextensions enabledelayedexpansion
 
 rem get packages in an array
 rem https://stackoverflow.com/a/10167990/4776628
