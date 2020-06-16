@@ -14,7 +14,11 @@ function global:au_SearchReplace {
     }
 }
 
-function global:au_BeforeUpdate { Get-RemoteFiles -Purge }
+function global:au_BeforeUpdate {
+  # Get-RemoteFiles -Purge
+  $Latest.Checksum32 = Get-RemoteChecksum $Latest.Url32
+  $Latest.Checksum64 = Get-RemoteChecksum $Latest.Url64
+}
 
 function global:au_GetLatest {
     $downloadPage = Invoke-WebRequest -Uri $releases -UseBasicParsing
